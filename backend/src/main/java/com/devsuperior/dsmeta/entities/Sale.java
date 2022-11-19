@@ -25,8 +25,8 @@ public class Sale {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String sellerName;
+	private LocalDate date;
 	private Integer visited;
 	private Integer deals;
 	private Double amount;
-	private LocalDate date;
 }
